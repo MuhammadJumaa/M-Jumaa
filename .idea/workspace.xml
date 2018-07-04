@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="990bc912-8dbf-4c60-a7cc-5333fde67f62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
@@ -40,8 +40,8 @@
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -242,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530603985180</updated>
-      <workItem from="1530603986463" duration="14013000" />
+      <workItem from="1530603986463" duration="14251000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1530604336909</created>
@@ -286,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530687991791</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix Leverage browser caching by adding the configration in htaccess file">
+      <created>1530688514581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530688514581</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14013000" />
+    <option name="totallyTimeSpent" value="14251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1851" height="1096" extended-state="6" />
@@ -326,7 +333,8 @@
     <MESSAGE value="put js code in bottom of the file before &lt;/body&gt;" />
     <MESSAGE value="convert css to scss" />
     <MESSAGE value="optimize images" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize images" />
+    <MESSAGE value="fix Leverage browser caching by adding the configration in htaccess file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Leverage browser caching by adding the configration in htaccess file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -605,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
