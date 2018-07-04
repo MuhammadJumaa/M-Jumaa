@@ -40,8 +40,8 @@
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -242,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530603985180</updated>
-      <workItem from="1530603986463" duration="14251000" />
+      <workItem from="1530603986463" duration="14499000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1530604336909</created>
@@ -293,11 +293,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530688514581</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix Leverage browser">
+      <created>1530688726868</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530688726868</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14251000" />
+    <option name="totallyTimeSpent" value="14499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1851" height="1096" extended-state="6" />
@@ -334,7 +341,8 @@
     <MESSAGE value="convert css to scss" />
     <MESSAGE value="optimize images" />
     <MESSAGE value="fix Leverage browser caching by adding the configration in htaccess file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix Leverage browser caching by adding the configration in htaccess file" />
+    <MESSAGE value="fix Leverage browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Leverage browser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -613,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
         </state>
       </provider>
