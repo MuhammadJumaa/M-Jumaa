@@ -1,0 +1,246 @@
+.owl-origin {
+  //Instead of the line below you could use @include perspective($p)
+  perspective: 1200px;
+}
+.owl-fade-out {
+  z-index: 10;
+  animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+  animation: fadeIn .7s both ease;
+}
+.owl-backSlide-out {
+  animation: backSlideOut 1s both ease;
+}
+.owl-backSlide-in {
+  animation: backSlideIn 1s both ease;
+}
+.owl-goDown-out {
+  animation: scaleToFade .7s ease both;
+}
+.owl-goDown-in {
+  animation: goDown .6s ease both;
+}
+.owl-fadeUp-in {
+  animation: scaleUpFrom .5s ease both;
+}
+.owl-fadeUp-out {
+  animation: scaleUpTo .5s ease both;
+}
+@-webkit-keyframes empty {
+  0% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes empty {
+  0% {
+    opacity: 1;
+  }
+}
+@keyframes empty {
+  0% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes backSlideOut {
+  25% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .5;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@-moz-keyframes backSlideOut {
+  25% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .5;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@keyframes backSlideOut {
+  25% {
+    opacity: .5;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(-500px);
+  }
+  75% {
+    opacity: .5;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(-500px) translateX(-200%);
+  }
+  100% {
+    opacity: .5;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(-500px) translateX(-200%);
+  }
+}
+@-webkit-keyframes backSlideIn {
+  0% {
+    opacity: .5;
+  }
+  25% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes backSlideIn {
+  0% {
+    opacity: .5;
+  }
+  25% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes backSlideIn {
+  0% {
+    opacity: .5;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(-500px) translateX(200%);
+  }
+  25% {
+    opacity: .5;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(-500px) translateX(200%);
+  }
+  75% {
+    opacity: .5;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(-500px);
+  }
+  100% {
+    opacity: 1;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(0) translateX(0);
+  }
+}
+@-webkit-keyframes scaleToFade {
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes scaleToFade {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes scaleToFade {
+  to {
+    opacity: 0;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scale(.8);
+  }
+}
+@-webkit-keyframes goDown {
+  from {
+  }
+}
+@-moz-keyframes goDown {
+  from {
+  }
+}
+@keyframes goDown {
+  from {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateY(-100%);
+  }
+}
+@-webkit-keyframes scaleUpFrom {
+  from {
+    opacity: 0;
+  }
+}
+@-moz-keyframes scaleUpFrom {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes scaleUpFrom {
+  from {
+    opacity: 0;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes scaleUpTo {
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes scaleUpTo {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes scaleUpTo {
+  to {
+    opacity: 0;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scale(1.5);
+  }
+}

@@ -30,7 +30,6 @@ $(document).ready(function(){
 		$('header .burger_icon').toggleClass('active');
 	});
 
-	
 
 
 
@@ -165,3 +164,8 @@ $(document).ready(function(){
 
 
 });
+
+//load second part of css after load page
+$(window).load(function(){
+    $('head').append('<link rel="stylesheet" type="text/css" href="css/loadAfterWindowLoad.css">');
+})
